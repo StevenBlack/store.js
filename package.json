@@ -1,30 +1,34 @@
 {
-	"name": "store.js",
-	"description": "A localStorage wrapper for all browsers without using cookies or flash. Uses localStorage, globalStorage, and userData behavior under the hood",
-	"version": "1.0.2",
-	"homepage": "http://github.com/marcuswestin/store.js/",
-	"author": "Marcus Westin <narcvs@gmail.com> (http://marcuswest.in)",
-	"contributors": [
-		"Matt Pizzimenti <mjpizz+github@gmail.com> (http://mjpizz.com)",
-		"Long Ouyang (http://github.com/longouyang)",
-		"Paul Irish (http://paulirish.com)",
-		"Guillermo Rauch <rauchg@gmail.com> (http://github.com/guille)",
-		"whitmer (http://github.com/whitmer)",
-		"Steven Black <steveb@stevenblack.com> (https://github.com/StevenBlack)"
-	],
-	"repository": {
-		"type": "git",
-		"url": "http://github.com/marcuswestin/store.js/"
-	},
-	"bugs": {
-		"web": "http://github.com/marcuswestin/store.js/issues"
-	},
-	"engines" : {
-		"browser" : "*"
-	},
-	"licenses" : [{
-		"type": "MIT", 
-		"url": "http://github.com/marcuswestin/store.js/raw/master/LICENSE"
-	}],
-	"main": "store"
+  "name": "store",
+  "version": "1.3.20",
+  "description": "A localStorage wrapper for all browsers without using cookies or flash. Uses localStorage, globalStorage, and userData behavior under the hood",
+  "main": "src/store.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/marcuswestin/store.js.git"
+  },
+  "author": "Marcus Westin <narcvs@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "http://github.com/marcuswestin/store.js/issues"
+  },
+  "homepage": "https://github.com/marcuswestin/store.js#readme",
+  "devDependencies": {
+    "budo": "^7.1.0",
+    "lodash": "^3.10.1",
+    "ngrok": "^0.2.2",
+    "node-localstorage": "^0.6.0",
+    "request": "^2.67.0",
+    "uglifyify": "^3.0.1"
+  },
+  "engines": {
+    "browser": "*",
+    "node": "*"
+  },
+  "directories": {
+    "lib": "."
+  }
 }
